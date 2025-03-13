@@ -5,7 +5,7 @@
 * 13.03.2025 - 1.0
   * Initiale Version
 
-***
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 
 ## **Inhalt**
 ### [1 Einleitung](#1-einleitung-1)
