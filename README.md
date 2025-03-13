@@ -1,4 +1,4 @@
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # **SMART CITIES - SICHERHEITSKONZEPT**
 
 
@@ -8,22 +8,22 @@
 ***
 
 ## **Inhalt**
-### [1 Einleitung](#einleitung-1)
-#### [1.1 Übersicht](#übersicht-1)
-#### [1.2 Kolophon](#kolophon-1)
-### [2 Architektur und Komponenten](#architektur-und-komponenten-1)
-#### [2.1 Sensoren (und Aktoren)](#sensoren-und-aktoren-1)
-#### [2.2 Datenübertragung](#datenübertragung-1)
-#### [2.3 IoT- und Datenplattformen](#iot--und-datenplattformen-1)
-#### [2.4 Smart City - Anwendungen](#smart-city--anwendungen)
-### [3 Strategien und Handlungsempfehlungen](#strategien-und-handlungsempfehlungen-1)
-#### [3.1 Bestehende Strategien und Handlungsempfehlungen im Überblick](#bestehende-strategien-und-handlungsempfehlungen-im-überblick-1)
-#### [3.2 Technologieintegration als besondere Herausforderung](#technologieintegration-als-besondere-herausforderung-1)
-#### [3.3 Kommunale Umsetzungshürden: Zwischen Anspruch und Realität](#kommunale-umsetzungshürden-zwischen-anspruch-und-realität-1)
-### [4 Richtlinien und Standards](#richtlinien-und-standards-1)
-#### [4.1 Richtlinien](#richtlinien-1)
-#### [4.2 Standards](#standards-1)
-### [5 Weiterführende Ressourcen und Tools](#weiterführende-ressourcen-und-tools-1)
+### [1 Einleitung](#1-einleitung-1)
+#### [1.1 Übersicht](#11-übersicht-1)
+#### [1.2 Kolophon](#12-kolophon-1)
+### [2 Architektur und Komponenten](#2-architektur-und-komponenten-1)
+#### [2.1 Sensoren (und Aktoren)](#21-sensoren-und-aktoren-1)
+#### [2.2 Datenübertragung](#22-datenübertragung-1)
+#### [2.3 IoT- und Datenplattformen](#23-iot--und-datenplattformen-1)
+#### [2.4 Smart City - Anwendungen](#24-smart-city--anwendungen)
+### [3 Strategien und Handlungsempfehlungen](#3-strategien-und-handlungsempfehlungen-1)
+#### [3.1 Bestehende Strategien und Handlungsempfehlungen im Überblick](#31-bestehende-strategien-und-handlungsempfehlungen-im-überblick-1)
+#### [3.2 Technologieintegration als besondere Herausforderung](#32-technologieintegration-als-besondere-herausforderung-1)
+#### [3.3 Kommunale Umsetzungshürden: Zwischen Anspruch und Realität](#33-kommunale-umsetzungshürden-zwischen-anspruch-und-realität-1)
+### [4 Richtlinien und Standards](#4-richtlinien-und-standards-1)
+#### [4.1 Richtlinien](#41-richtlinien-1)
+#### [4.2 Standards](#42-standards-1)
+### [5 Weiterführende Ressourcen und Tools](#5-weiterführende-ressourcen-und-tools-1)
 
 ***
 
