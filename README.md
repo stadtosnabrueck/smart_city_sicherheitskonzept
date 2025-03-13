@@ -1,31 +1,36 @@
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 # **SMART CITIES - SICHERHEITSKONZEPT**
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
 
 * 13.03.2025 - 1.0
   * Initiale Version
-## **Inhalt**
-### [Einleitung](#einleitung)
-#### [Übersicht](#uebersicht)
-#### [Kolophon](#kolophon)
-### Architektur und Komponenten
-#### Sensoren (und Aktoren)
-#### Datenübertragung
-#### IoT- und Datenplattformen
-#### Smart City Anwendungen
-### Strategien und Handlungsempfehlungen
-#### Bestehende Strategien und Handlungsempfehlungen im Überblick
-#### Technologieintegration als besondere Herausforderung
-#### Kommunale Umsetzungshürden: Zwischen Anspruch und Realität
-### Richtlinien und Standards
-#### Richtlinien
-#### Standards
-### Weiterführende Ressourcen und Tools
 
-## **Einleitung**
+***
+
+## **Inhalt**
+### [1 Einleitung](#einleitung-1)
+#### [1.1 Übersicht](#übersicht-1)
+#### [1.2 Kolophon](#kolophon-1)
+### [2 Architektur und Komponenten](#architektur-und-komponenten-1)
+#### [2.1 Sensoren (und Aktoren)](#sensoren-und-aktoren-1)
+#### [2.2 Datenübertragung](#datenübertragung-1)
+#### [2.3 IoT- und Datenplattformen](#iot--und-datenplattformen-1)
+#### [2.4 Smart City - Anwendungen](#smart-city--anwendungen)
+### [3 Strategien und Handlungsempfehlungen](#strategien-und-handlungsempfehlungen-1)
+#### [3.1 Bestehende Strategien und Handlungsempfehlungen im Überblick](#bestehende-strategien-und-handlungsempfehlungen-im-überblick-1)
+#### [3.2 Technologieintegration als besondere Herausforderung](#technologieintegration-als-besondere-herausforderung-1)
+#### [3.3 Kommunale Umsetzungshürden: Zwischen Anspruch und Realität](#kommunale-umsetzungshürden-zwischen-anspruch-und-realität-1)
+### [4 Richtlinien und Standards](#richtlinien-und-standards-1)
+#### [4.1 Richtlinien](#richtlinien-1)
+#### [4.2 Standards](#standards-1)
+### [5 Weiterführende Ressourcen und Tools](#weiterführende-ressourcen-und-tools-1)
+
+***
+
+## **1 Einleitung**
 Mit der zunehmenden Digitalisierung gewinnen smarte Technologien eine immer größere Bedeutung für Städte, die ihre Effizienz steigern und ihre Dienstleistungen optimieren möchten. Dazu gehören Sensoren, urbane Datenplattformen und die Integration dieser Systeme in die alltäglichen Abläufe. Dieses Smart City Cybersecurity-Referenzkonzept (nachfolgend: SCCK) verfolgt das Ziel, eine umfassende Sammlung bewährter Ansätze, Standards und Ressourcen rund um Cybersecurity im Smart City-Kontext bereitzustellen. Darüber hinaus enthält es typische Beispiele und Angriffsszenarien für die einzelnen Systemkomponenten. Das SCCK richtet sich insbesondere an Smart City - Teams, die mit der Implementierung von Smart City - Lösungen beauftragt sind und an interessierte Nutzer, die ein besseres Verständnis entwickeln möchten.   
 
-### Übersicht
+### 1.1 Übersicht
 Das Sicherheitskonzept umfasst folgende Schwerpunkte: 
 
 - _Architektur und Komponenten_: Analyse der Sicherheitsanforderungen auf den Ebenen der Sensoren, der Datenübertragung, den Plattformen und Cloud-Systeme und den Anwendungen 
@@ -36,29 +41,30 @@ Das Sicherheitskonzept umfasst folgende Schwerpunkte:
 
 - _Weiterführende Informationen_: Weiterführende Ressourcen und Informationen. 
 
-### Kolophon
-- _Autoren_:  Dieses Konzept wurde in seiner ersten Fassung von einem interdisziplinären Team aus Expert:innen in den Bereichen Cybersecurity, Smart City-Technologien und kommunaler Verwaltung entwickelt. Die Federführung lag beim  Team Smart City der Stadt Osnabrück, und entstand in Zusammenarbeit mit der Zentrum für Digitalen Entwicklung GmbH, Westhausen. 
+### 1.2 Kolophon
+- _Autoren_:  Dieses Konzept wurde in seiner ersten Fassung von einem interdisziplinären Team aus Expertinnen und Experten in den Bereichen Cybersecurity, Smart City-Technologien und kommunaler Verwaltung entwickelt. Die Federführung lag beim  Team Smart City der Stadt Osnabrück, und entstand in Zusammenarbeit mit der Zentrum für Digitalen Entwicklung GmbH, Westhausen. 
 
 - _Mitreden und Mitgestalten_: Zukünftig soll das Dokument auf Basis von Ideen, Feedback und dem Austausch mit weiteren Expert:innen sowie interessierten Netzwerken und Fachgruppen kontinuierlich weiterentwickelt werden. Dadurch bleibt das Konzept nicht nur aktuell, sondern kann sich dynamisch an neue Herausforderungen, Technologien und Erkenntnisse anpassen. Das Sicherheitskonzept ist somit Teil eines kollaborativen Ansatzes, um die digitale Souveränität deutscher Smart Cities zu fördern. Interessierte Städte und Organisationen sind eingeladen, sich an der Weiterentwicklung zu beteiligen. openCode als Plattform wurden bewusst gewählt, da hier die Möglichkeit besteht, aktiv mitzuwirken, Vorschläge einzubringen und von den Erfahrungen anderer Städte zu profitieren.  
 
-* _Finanzierung_: Die Finanzierung der ersten Version dieses Dokuments erfolgte durch eine Förderung des Programms „Modellprojekte Smart Cities“ des Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen sowie der KfW.
+- _Finanzierung_: Die Finanzierung der ersten Version dieses Dokuments erfolgte durch eine Förderung des Programms „Modellprojekte Smart Cities“ des Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen sowie der KfW.
 
 - _Lizensierung_: Das Konzept steht unter der **Creative Commons Lizenz (CC BY oder CC BY-SA)**, was bedeutet, dass es frei genutzt, weitergegeben und angepasst werden darf, solange die ursprünglichen Autorinnen und Autoren (Stadt Osnabrück / Team Smart City und Zentrum für Digitale Entwicklung GmbH) genannt werden. Diese Lizenz gewährleistet Offenheit und fördert die Nutzung in einem kollaborativen Umfeld, mit dem Ziel, ein sicheres und nachhaltiges Smart City - Modell in Deutschland zu schaffen. 
 
-## **Architektur und Komponenten**
+***
+
+## **2 Architektur und Komponenten**
 In diesem Kapitel wird die typische Architektur von Smart City - Lösungen beschrieben, die von der Datenerfassung durch Sensoren bis zur Nutzung der Daten in spezifischen städtischen Anwendungen reicht. Die verschiedenen Systemkomponenten – Sensoren, Übertragungsinfrastrukturen, IoT-Plattformen und applikationsspezifische Smart City Anwendungen – bilden zusammen ein komplexes Netzwerk.  
 
 Jede dieser Ebenen weist dabei eigene Anforderungen an Sicherheit und Zuverlässigkeit auf. Um den durchgängigen Schutz (sensibler) Daten sowie den unterbrechungsfreien Betrieb sicherzustellen, sind gezielte Sicherheitsmaßnahmen auf allen Ebenen der Architektur unerlässlich. Auf diese Weise können potenzielle Risiken frühzeitig erkannt, kritische Infrastrukturen wirksam geschützt und das Vertrauen in die digitalen Prozesse einer Smart City nachhaltig gestärkt werden. 
-![Abbildung 1: Schematische Darstellung der Smart City - Komponenten](https://www.gut-cert.de/files/content/download/Newsletter/news_abbildungen_fotos/archiv_2019_2022/2022_02_smart_city2.png)
 
-### Sensoren (und Aktoren)
+### 2.1 Sensoren (und Aktoren)
 **_Was ist es?_**
 
 Die erste Ebene in der Smart City - Systemwelt umfasst Geräte, die als Sensoren oder Aktoren fungieren können. Unter Sensoren versteht man im Kontext einer Smart City technische Mess- und Erfassungseinrichtungen, die physikalische oder umweltbezogene Größen aus der städtischen Umgebung aufnehmen, in digitale Daten umwandeln und für nachgelagerte Anwendungen bereitstellen. Dazu zählen beispielsweise Sensoren für Luftqualität, Lärmbelastung, Verkehrsdichte, Füllstände von Abfallbehältern oder Energieverbräuche. Während Sensoren Informationen erfassen und bereitstellen, setzen Aktoren diese Informationen in konkrete Aktionen um. Beispiele dafür sind unter anderem Systeme zur bedarfsgerechten Beleuchtungssteuerung, adaptive Verkehrsregelungen, automatische Bewässerungsanlagen in Grünflächen oder Heizungs-, Lüftungs- und Klimasysteme in öffentlichen Gebäuden. Hier beginnt die Interaktion der Smart City mit ihrer Umgebung. Die Datenübertragung findet hierbei in vielen Fällen drahtlos über Übertragungsinfrastrukturen wie LoRaWAN oder NB-IoT statt.
 
 **_Technologien und ausgewählte Beispiele_**
 
-1. Sensoren 
+1. _Sensoren_
 
 - Typische Anwendungsfälle:  
 
@@ -84,7 +90,7 @@ Die erste Ebene in der Smart City - Systemwelt umfasst Geräte, die als Sensoren
 
 - Besonderheit: Die einzelnen Sensoren sind in der Regel mit einem Übertragungsnetz verbunden, das die erhobenen Daten in Echtzeit an eine zentrale Plattform weiterleitet. Dort werden sie ausgewertet und für unterschiedliche Smart City-Anwendungen bereitgestellt – von der Verkehrssteuerung über das Energiecontrolling bis hin zur Umweltanalyse. 
 
-2. Aktoren
+2. _Aktoren_
 
 - Typische Anwendungsfälle:  
 
@@ -106,7 +112,7 @@ Die erste Ebene in der Smart City - Systemwelt umfasst Geräte, die als Sensoren
 
 - Besonderheit: Aktoren reagieren in Echtzeit auf Daten, die von Sensoren erfasst und in zentralen Plattformen ausgewertet werden. So lassen sich städtische Infrastrukturen dynamisch an die aktuelle Situation anpassen – etwa durch das Umschalten einer Ampelphase bei hohem Verkehrsaufkommen oder die bedarfsgerechte Regulierung der Straßenbeleuchtung zur Steigerung von Energieeffizienz und Sicherheit.  
 
-3. Smartphone 
+3. _Smartphone_
 
 - Typische Anwendungsfälle:  
 
@@ -128,9 +134,9 @@ Die erste Ebene in der Smart City - Systemwelt umfasst Geräte, die als Sensoren
 
 - Besonderheit: Smartphones fördern die direkte, wechselseitige Kommunikation zwischen Stadtverwaltung und Bürgerinnen und Bürgern. Sie ermöglichen die Einbindung der Stadtbevölkerung in Entscheidungsprozesse und sorgen für eine schnelle Rückmeldung von Informationen aus dem öffentlichen Raum. Dadurch entsteht eine dynamische Vernetzung, die Smart City - Dienste effizienter gestaltet und gleichzeitig die Partizipation in der Stadtgemeinschaft stärkt. 
 
-4. Intelligente Beleuchtung 
+4. _Intelligente Beleuchtung_
 
-- Typische Anwendungsfälle 
+- Typische Anwendungsfälle: 
 
   - **Straßenbeleuchtung**: Dynamische Anpassung der Lichtintensität an Verkehrsaufkommen oder Umgebungshelligkeit 
 
@@ -155,7 +161,7 @@ Die erste Ebene in der Smart City - Systemwelt umfasst Geräte, die als Sensoren
 
 In einer Smart City sammeln Sensoren und Aktoren kontinuierlich eine große Menge an städtischen Daten und führen wichtige Aktionen aus. Die hohe Vernetzung und der teils öffentliche Standort dieser Geräte machen sie zu einem möglichen Ziel für Cyberangriffe. Nachfolgend werden ausgewählte Angriffsszenarien beschrieben, die sowohl die Verfügbarkeit als auch die Integrität und Vertraulichkeit der Daten in einer Smart City gefährden können. Die Angriffsszenarien sind entsprechend ihrer Auftrittswahrscheinlichkeit und -häufigkeit aufgelistet. 
 
-1. Abhören und Abgreifen von Daten
+_1. Abhören und Abgreifen von Daten_
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -163,7 +169,7 @@ In einer Smart City sammeln Sensoren und Aktoren kontinuierlich eine große Meng
 
 **Auswirkungen**: Kompromittierung sensibler Informationen, potenzieller Identitätsdiebstahl oder Auslesen von Zugangsdaten zu kritischen Stadtinfrastrukturen. 
 
-2. Firmware- und Software-Exploits 
+_2. Firmware- und Software-Exploits_
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -171,7 +177,7 @@ In einer Smart City sammeln Sensoren und Aktoren kontinuierlich eine große Meng
 
 **Auswirkungen**: Da Sicherheitsupdates nicht immer zeitnah durchgeführt werden, nutzen Angreiferinnen und Angreifer oft bekannte Schwachstellen aus, um unbefugt Kontrolle über das Gerät zu erlangen, Daten zu stehlen oder einen Einstiegspunkt für weiterführende Angriffe im gesamten Netz zu schaffen.  
 
-3. Manipulation und Spoofing von Sensordaten 
+_3. Manipulation und Spoofing von Sensordaten_
 
 **Wahrscheinlichkeit**: Mittel bis hoch 
 
@@ -179,7 +185,7 @@ In einer Smart City sammeln Sensoren und Aktoren kontinuierlich eine große Meng
 
 **Auswirkungen**: Fehlentscheidungen in städtischen Steuerungssystemen (z. B. falsche Ampelschaltungen oder ungenaue Luftqualitätsmessungen die zu Fehlentscheidungen im System führen) sowie Beeinträchtigungen in der öffentlichen Sicherheit.  
 
-4. Denial-of-Service (DoS) Angriffe 
+_4. Denial-of-Service (DoS) Angriffe_
 
 **Wahrscheinlichkeit**: Mittel 
 
@@ -187,15 +193,15 @@ In einer Smart City sammeln Sensoren und Aktoren kontinuierlich eine große Meng
 
 **Auswirkungen**: Störungen in städtischen Diensten (z. B. Verkehrsüberwachung) oder zeitweise Ausfälle von Smart City - Anwendungen und -Plattformen. 
 
-5. Bösartige Aktoren-Befehle 
+_5. Bösartige Aktoren-Befehle_
 
 **Wahrscheinlichkeit**: Mittel bis gering 
 
-Beschreibung: Durch das gezielte Übernehmen von Steuerbefehlen können Angreiferinnen und Angreifer z. B. Ampelschaltungen, Schranken oder öffentliche Beleuchtung manipulieren. Diese gezielten Angriffe auf Aktoren erfordern in der Regel tiefergehendes Systemwissen und sind technisch aufwendig. Solche Angriffe können jedoch auftreten, wenn Schwachstellen im Zugangsnetzwerk bestehen. 
+**Beschreibung**: Durch das gezielte Übernehmen von Steuerbefehlen können Angreiferinnen und Angreifer z. B. Ampelschaltungen, Schranken oder öffentliche Beleuchtung manipulieren. Diese gezielten Angriffe auf Aktoren erfordern in der Regel tiefergehendes Systemwissen und sind technisch aufwendig. Solche Angriffe können jedoch auftreten, wenn Schwachstellen im Zugangsnetzwerk bestehen. 
 
 **Auswirkungen**: Potenzielle Gefährdung der öffentlichen Sicherheit, erhöhtes Unfallrisiko oder beträchtliche Sachschäden. 
 
-6. Physischer Zugriff und Sabotage 
+_6. Physischer Zugriff und Sabotage_
 
 **Wahrscheinlichkeit**: Gering 
 
@@ -203,7 +209,7 @@ Beschreibung: Durch das gezielte Übernehmen von Steuerbefehlen können Angreife
 
 **Auswirkungen**: Schäden können zu Datenlücken, Fehlfunktionen oder einer kompletten Systemunterbrechung führen. Potenzielle Gefährdung der öffentlichen Sicherheit und erhöhtes Unfallrisiko in sicherheitskritischen Bereichen wie Verkehrsmanagement. Beträchtliche Sachschäden. 
 
-### Datenübertragung
+### 2.2 Datenübertragung
 
 **_Was ist es?_**
 
@@ -217,7 +223,7 @@ Je nach Technologie unterscheidet sich nicht nur die Übertragungsgeschwindigkei
 
 Die Datenübertragung in Smart Cities erfolgt über verschiedene Netzwerktechnologien, die je nach Anwendung spezifische Anforderungen an Reichweite, Bandbreite, Energieverbrauch und Latenz erfüllen müssen. Während einige Technologien für hohe Datenraten und niedrige Latenzen ausgelegt sind (z. B. Glasfaser, 5G), eignen sich andere für energieeffiziente Übertragungen mit geringen Datenmengen (z. B. LoRaWAN, NB-IoT). Die Auswahl der richtigen Technologie hängt von den jeweiligen Anwendungsfällen und weiteren Überlegungen z.B. zu Sicherheitsaspekten ab. 
 
-Typische Anwendungsfälle 
+Typische Anwendungsfälle: 
 
 - **Echtzeit-Datenübertragung für kritische Anwendungen**: Verkehrssteuerung, Notfallkommunikation, Videoüberwachung 
 
@@ -227,47 +233,47 @@ Typische Anwendungsfälle
 
 - **Sichere und redundante Übertragung für resiliente Systeme**: Backup-Netzwerke für kritische Infrastrukturen, verschlüsselte Kommunikationskanäle 
 
-Typische Technologien 
+Typische Technologien: 
 
-1. Glasfasernetze – Höchste Bandbreite für datenintensive Anwendungen 
+- **Glasfasernetze – Höchste Bandbreite für datenintensive Anwendungen** 
 
-  - **Eigenschaften**: Sehr hohe Datenraten, extrem niedrige Latenz, störungsresistent 
+  - Eigenschaften: Sehr hohe Datenraten, extrem niedrige Latenz, störungsresistent 
 
-  - **Einsatzbereiche**: Vernetzung von Smart City - Datenzentren, Übertragung großer Datenmengen aus Videoüberwachungssystemen, Anbindung von Edge-Computing-Plattformen 
+  - Einsatzbereiche: Vernetzung von Smart City - Datenzentren, Übertragung großer Datenmengen aus Videoüberwachungssystemen, Anbindung von Edge-Computing-Plattformen 
 
-  - **Besonderheit**: Aufgrund der hohen Investitionskosten werden Glasfasernetze primär für Backbone-Infrastrukturen genutzt 
+  - Besonderheit: Aufgrund der hohen Investitionskosten werden Glasfasernetze primär für Backbone-Infrastrukturen genutzt 
 
-2. Mobilfunktechnologien (4G/5G) – Drahtlose Hochgeschwindigkeitsnetze 
+- **Mobilfunktechnologien (4G/5G) – Drahtlose Hochgeschwindigkeitsnetze**
 
-  - **Eigenschaften**: Hohe Bandbreite, mittlere bis niedrige Latenz, flexibel einsetzbar 
+  - Eigenschaften: Hohe Bandbreite, mittlere bis niedrige Latenz, flexibel einsetzbar 
 
-  - **Einsatzbereiche**: Verkehrsmanagement (z. B. 5G-basierte Ampelschaltungen), Notfallkommunikation, IoT-gestützte Steuerung von Stadtbeleuchtung 
+  - Einsatzbereiche: Verkehrsmanagement (z. B. 5G-basierte Ampelschaltungen), Notfallkommunikation, IoT-gestützte Steuerung von Stadtbeleuchtung 
 
-  - **Besonderheit**: 5G ermöglicht die Echtzeit-Kommunikation für vernetzte Fahrzeuge und intelligente Mobilitätslösungen 
+  - Besonderheit: 5G ermöglicht die Echtzeit-Kommunikation für vernetzte Fahrzeuge und intelligente Mobilitätslösungen 
 
-3. WLAN (Wi-Fi) – Flexible Nahbereichsübertragung 
+- **WLAN (Wi-Fi) – Flexible Nahbereichsübertragung**
 
-  - **Eigenschaften**: Mittelgroße Reichweite, hohe Bandbreite, nicht flächendeckend 
+  - Eigenschaften: Mittelgroße Reichweite, hohe Bandbreite, nicht flächendeckend 
 
-  - **Einsatzbereiche**: Luft- und Lärmmessung im urbanen Raum, Besucherzählung in Innenstädten, öffentlicher Internetzugang in Smart City - Zonen 
+  - Einsatzbereiche: Luft- und Lärmmessung im urbanen Raum, Besucherzählung in Innenstädten, öffentlicher Internetzugang in Smart City - Zonen 
 
-  - **Besonderheit**: Wird oft in Kombination mit Mobilfunk- oder Glasfasernetzen genutzt, um gezielte Netzabdeckung bereitzustellen 
+  - Besonderheit: Wird oft in Kombination mit Mobilfunk- oder Glasfasernetzen genutzt, um gezielte Netzabdeckung bereitzustellen 
 
-4. NB-IoT (Narrowband IoT) – Energieeffiziente Kommunikation für vernetzte Sensoren 
+- **NB-IoT (Narrowband IoT) – Energieeffiziente Kommunikation für vernetzte Sensoren**
 
-  - **Eigenschaften**: Sehr geringer Energieverbrauch, tiefes Eindringen in Gebäude, niedrige Datenrate 
+  - Eigenschaften: Sehr geringer Energieverbrauch, tiefes Eindringen in Gebäude, niedrige Datenrate 
 
-  - **Einsatzbereiche**: Wasserzähler, intelligente Stromnetze (Smart Metering), Gebäudeüberwachung 
+  - Einsatzbereiche: Wasserzähler, intelligente Stromnetze (Smart Metering), Gebäudeüberwachung 
 
-  - **Besonderheit**: Ideal für Anwendungen, die eine langlebige Batterieversorgung und sporadische Datenübertragungen erfordern 
+  - Besonderheit: Ideal für Anwendungen, die eine langlebige Batterieversorgung und sporadische Datenübertragungen erfordern 
 
-5. LoRaWAN (Long Range Wide Area Network) – Weitreichende, kostengünstige IoT-Kommunikation 
+- **LoRaWAN (Long Range Wide Area Network) – Weitreichende, kostengünstige IoT-Kommunikation**
 
-  - **Eigenschaften**: Sehr hohe Reichweite, extrem niedriger Energieverbrauch, geringe Datenrate 
+  - Eigenschaften: Sehr hohe Reichweite, extrem niedriger Energieverbrauch, geringe Datenrate 
 
-  - **Einsatzbereiche**: Füllstandsensoren für Mülltonnen, Parkplatzüberwachung, Luftqualitätsmessungen 
+  - Einsatzbereiche: Füllstandsensoren für Mülltonnen, Parkplatzüberwachung, Luftqualitätsmessungen 
 
-  - **Besonderheit**: Ermöglicht den Betrieb von großen Sensornetzwerken ohne hohen Infrastrukturaufwand 
+  - Besonderheit: Ermöglicht den Betrieb von großen Sensornetzwerken ohne hohen Infrastrukturaufwand 
 
 **_Typische Angriffsszenarien_**
 
@@ -275,7 +281,7 @@ In einer Smart City bildet die Datenübertragung das Bindeglied zwischen Sensore
 
 Die nachfolgenden Angriffsszenarien sind entsprechend ihrer Wahrscheinlichkeit und potenziellen Auswirkungen geordnet und zeigen typische Bedrohungen für die Datenübertragung in Smart Cities auf. 
 
-1. Abhören und Mitlesen des Datenverkehrs 
+1. _Abhören und Mitlesen des Datenverkehrs_ 
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -283,7 +289,7 @@ Die nachfolgenden Angriffsszenarien sind entsprechend ihrer Wahrscheinlichkeit u
 
 **Folgen**: Die Privatsphäre der Bürgerinnen und Bürger wird verletzt, und es können z.B. gezielte Bewegungsprofile erstellt werden. In sicherheitskritischen Bereichen wie Überwachungssystemen oder Zugangskontrollen kann ein solcher Angriff zur Kompromittierung der Stadtinfrastruktur führen. 
 
-2. Man-in-the-Middle (MitM)-Angriffe 
+2. _Man-in-the-Middle (MitM)-Angriffe_
 
 **Wahrscheinlichkeit**: Mittel bis hoch 
 
@@ -291,7 +297,7 @@ Die nachfolgenden Angriffsszenarien sind entsprechend ihrer Wahrscheinlichkeit u
 
 **Folgen**: Verfälschte oder manipulierte Daten können zu Fehlentscheidungen in städtischen Systemen führen, etwa durch falsche Sensordaten für Verkehrsflussanalysen oder manipulative Eingriffe in Energiemanagementsysteme. 
 
-3. Jamming und Signalstörung 
+3. _Jamming und Signalstörung_
 
 **Wahrscheinlichkeit**: Mittel 
 
@@ -299,7 +305,7 @@ Die nachfolgenden Angriffsszenarien sind entsprechend ihrer Wahrscheinlichkeit u
 
 **Folgen**: Störungen in der Datenübertragung können den Betrieb kritischer Smart City - Dienste, wie die Verkehrssteuerung oder Notfallsysteme, erheblich beeinträchtigen 
 
-### IoT- und Datenplattformen
+### 2.3 IoT- und Datenplattformen
 
 **_Was ist es?_**
 
@@ -315,7 +321,7 @@ Diese Plattformen sind ein kritischer Bestandteil smarter Städte, da sie nicht 
 
 In Smart Cities kommen verschiedene IoT- und Datenplattformen zum Einsatz – oft auch mehrere parallel –, um die unterschiedlichen Anforderungen an Datenmanagement, Skalierbarkeit, Sicherheit und Interoperabilität zu erfüllen. Die Auswahl hängt dabei stark von den spezifischen Anwendungsfällen, der bestehenden IT-Infrastruktur und den gewünschten Integrationsmöglichkeiten ab. 
 
-1. IoT- Datenplattformen 
+1. _IoT- Datenplattformen_ 
 - **Beschreibung**: IoT-Datenplattformen verwalten die Vielzahl an verteilten IoT-Geräten, Sensoren und Aktoren und stellen sicher, dass die Daten zentral gesammelt und gespeichert werden. Sie bieten Speicherlösungen, die große Datenmengen sicher und effizient organisieren. 
 
 - **Anwendungsfälle:** 
@@ -326,7 +332,7 @@ In Smart Cities kommen verschiedene IoT- und Datenplattformen zum Einsatz – of
 
   - Netzwerk- und Gerätemanagement: Überwachung und Steuerung der Konnektivität und des Zustands der angebundenen IoT-Geräte und Sensoren zur zentralen Verwaltung von Netzwerktopologien, Optimierung von Datenflüssen und frühzeitigen Meldung von Ausfälle oder Störungen 
 
-2. Urbane Datenplattformen 
+2. _Urbane Datenplattformen_
 
 - **Beschreibung:** Diese Plattformen führen Datenströme aus verschiedenen Quellen zusammen, um diese zu kombinieren und zu verschneiden und so einheitliche Datensätze für spezielle Anwendungen bereitzustellen. Sie sind entscheidend für städtische Digitalisierungsprojekte, da sie eine zentrale Informationsbasis schaffen, die für weitere Anwendungen genutzt werden kann. 
 
@@ -338,7 +344,7 @@ In Smart Cities kommen verschiedene IoT- und Datenplattformen zum Einsatz – of
 
   - Optimierung des öffentlichen Transports: Daten aus Verkehrssensoren und Fahrzeugortungssystemen werden zusammengeführt, um die Effizienz und Pünktlichkeit des öffentlichen Nahverkehrs zu verbessern 
 
-3. Urbane Datennutzung und Interoperabilität 
+3. _Urbane Datennutzung und Interoperabilität_
 
 - **Beschreibung:** Urbane Datennutzung und Interoperabilität ermöglichen den Austausch und die Integration städtischer Daten über verschiedene Systeme und Anwendungen hinweg. Sie schaffen vernetzte Datenökosysteme, indem sie offene Schnittstellen und standardisierte Datenformate bereitstellen. Open Data - Portale spielen hierbei eine zentrale Rolle, indem sie Verwaltungsdaten, Sensordaten und Analyseergebnisse öffentlich zugänglich machen. 
 
@@ -354,7 +360,7 @@ In Smart Cities kommen verschiedene IoT- und Datenplattformen zum Einsatz – of
 
 IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruktur und daher ein attraktives Ziel für Cyberangriffe. Auf diesen Plattformen laufen sensible Daten aus verschiedenen Quellen zusammen, die für die Steuerung und Überwachung städtischer Systeme entscheidend sind. Die typischen Angriffsszenarien umfassen folgende Bedrohungen: 
 
-1. Unbefugter Zugriff und Datenabfluss 
+1. _Unbefugter Zugriff und Datenabfluss_
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -362,7 +368,7 @@ IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruk
 
 **Folgen**: Unbefugter Zugriff kann dazu führen, dass sensible Daten veröffentlicht oder manipuliert werden, was das Vertrauen der Bürgerinnen und Bürger in die Smart City - Systeme untergräbt und rechtliche Konsequenzen nach sich ziehen kann. 
 
-2. Datenmanipulation und Integritätsverletzungen 
+2. _Datenmanipulation und Integritätsverletzungen_
 
 **Wahrscheinlichkeit**: Mittel bis Hoch 
 
@@ -370,7 +376,7 @@ IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruk
 
 **Folgen**: Falsche oder manipulierte Daten können zu unkoordinierten Aktionen in Smart City - Diensten führen, was die Sicherheit und Effizienz gefährdet und sogar die öffentliche Ordnung beeinträchtigen kann. Besonders problematisch ist dies, wenn falsche Daten die Entscheidungsprozesse in städtischen Systemen wie Verkehrssteuerung oder Energieverteilung beeinflussen. 
 
-3. Ransomware-Angriffe auf zentrale Systeme 
+3. _Ransomware-Angriffe auf zentrale Systeme_
 
 **Wahrscheinlichkeit**: Mittel bis Hoch 
 
@@ -378,7 +384,7 @@ IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruk
 
 **Folgen**: Die Blockade von Daten kann den Betrieb vieler städtischer Systeme lahmlegen, was zu erheblichen finanziellen und logistischen Schäden führen kann.  
 
-4. Angriffe auf Datenplattformen 
+4. _Angriffe auf Datenplattformen_
 
 **Wahrscheinlichkeit**: Mittel 
 
@@ -386,7 +392,7 @@ IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruk
 
 **Folgen**: Ein DoS-Angriff auf die Datenplattform kann kritische städtische Dienste wie Verkehrsmanagement, Energieversorgung und öffentliche Sicherheit stören und somit massive Auswirkungen auf das tägliche Leben in der Stadt haben. 
 
-### Smart City- Anwendungen
+### 2.4 Smart City- Anwendungen
 _**Was ist es?**_ 
 
 Smart City - Anwendungen bilden die oberste Ebene der städtischen Digitalinfrastruktur. Im Gegensatz zu urbanen Datenplattformen, die eine Vielzahl unterschiedlicher Datenquellen zusammenführen, sind diese Anwendungen meist auf spezifische Anwendungsfälle ausgerichtet. Sie nutzen gezielt ausgewählte Daten aus Sensoren, Kommunikationsnetzen oder urbanen Datenplattformen, um daraus visuelle, analytische oder interaktive Lösungen zu entwickeln. 
@@ -424,7 +430,7 @@ _**Technologien und ausgewählte Beispiele**_
 **_Typische Angriffsszenarien_**
 
 Die IoT- Anwendungen in Smart Cities sind ein attraktives Ziel für Angriffe, da sie eine direkte Schnittstelle zwischen Nutzenden und städtischen Systemen darstellen. Die häufigsten Szenarien gefährden die **Sicherheit, Integrität und Verfügbarkeit** dieser Anwendungen. 
-1. Angriffe auf Drittanbieter-Integrationen 
+1. _Angriffe auf Drittanbieter-Integrationen_
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -432,7 +438,7 @@ Die IoT- Anwendungen in Smart Cities sind ein attraktives Ziel für Angriffe, da
 
 **Folgen**: Verfälschte Daten führen zu fehlerhaften Prognosen, ineffektiven Stadtsteuerungen und potenziellen Sicherheitsrisiken. 
 
-2. Ausnutzung von Schwachstellen in IoT-Anwendungen
+2. _Ausnutzung von Schwachstellen in IoT-Anwendungen_
 
 **Wahrscheinlichkeit**: Hoch 
 
@@ -440,7 +446,7 @@ Die IoT- Anwendungen in Smart Cities sind ein attraktives Ziel für Angriffe, da
 
 **Folgen**: Datenlecks, Identitätsdiebstahl oder unautorisierte Steuerung kritischer Dienste wie Ampelanlagen oder Umweltüberwachungssysteme. 
 
-3. Manipulation von Berechnungen und Entscheidungsprozessen
+3. _Manipulation von Berechnungen und Entscheidungsprozessen_
 
 **Wahrscheinlichkeit**: Mittel 
 
@@ -448,7 +454,7 @@ Die IoT- Anwendungen in Smart Cities sind ein attraktives Ziel für Angriffe, da
 
 **Folgen**: Fehlentscheidungen bei der Verkehrssteuerung, Umweltmaßnahmen oder Energienutzung, was zu ineffizienten oder riskanten Maßnahmen führen kann. 
 
-4. Denial-of-Service-Angriffe (DoS) auf Anwendungen
+4. _Denial-of-Service-Angriffe (DoS) auf Anwendungen_
 
 **Wahrscheinlichkeit**: Mittel 
 
@@ -456,7 +462,9 @@ Die IoT- Anwendungen in Smart Cities sind ein attraktives Ziel für Angriffe, da
 
 **Folgen**: Ausfälle von Parkraum- und Verkehrsmanagement, digitale Bürgerdienste oder Smart City-Verwaltungsportale. Kritische Infrastrukturen wie Notruf-Apps oder Frühwarnsysteme können ebenfalls betroffen sein. 
 
-## Strategien und Handlungsempfehlungen
+***
+
+## 3 Strategien und Handlungsempfehlungen
 
 Die Sicherheit von Smart City-Infrastrukturen ist ein komplexes Thema, für das bereits zahlreiche fundierte Empfehlungen existieren. Anstatt diese erneut zusammenzufassen, verweist dieses Kapitel gezielt auf bestehende Ressourcen und ergänzt diese um praxisnahe Betrachtungen. 
 
@@ -464,7 +472,7 @@ Ein zentrales Referenzdokument ist die BSI-Handlungsempfehlung für Smart Cities
 
 Ergänzend zu den bestehenden Empfehlungen widmet sich dieses Kapitel spezifischen Herausforderungen in Bezug auf Technologieintegration und Interoperabilität sowie dem Übertrag in die kommunale Praxis. und Praxisaspekten der Cybersicherheit in Smart Cities.  
 
-### Bestehende Strategien und Handlungsempfehlungen im Überblick
+### 3.1 Bestehende Strategien und Handlungsempfehlungen im Überblick
 
 
 | Publikation | Hrsg. | Erschienen | Sprache | Einordnung |
@@ -473,7 +481,7 @@ Ergänzend zu den bestehenden Empfehlungen widmet sich dieses Kapitel spezifisch
 |[Making smart cities cybersecure - Ways to address distinct risks in an increasingly connected urban future](https://www.deloitte.com/de/de/services/risk-advisory/research/smart-cities-cyber-security.html) | Deloitte | 2019 | Englisch |  *Read* Bietet ein Rahmenwerk für Managementstrategien zur Gewährleistung von Sicherheit, Verfügbarkeit, Vertraulichkeit, Integrität und Elastizität in vernetzten städtischen Systemen |
 |[Resilienz in der Smart City - Wie Kommunen besser mit Krisen umgehen und proaktiv eine nachhaltige Zukunft gestalten können](https://www.smart-city-dialog.de/resilienz-der-smart-city-wie-kommunen-besser-mit-krisen-umgehen-koennen) | BBSR | 2023 | deutsch | *Information* Setzt auf ein Resilienzkonzept für krisenfeste Städte; Digitalisierung und Cybersicherheit als Schlüssel; Schutz kritischer Infrastruktur und Anpassungsfähigkeit im Fokus; Handlungsempfehlungen zur Stärkung durch Feedback-Loops, Modularität, Diversität, Redundanz; konkrete Praxisbeispiele |
 
-### Technologieintegration als besondere Herausforderung
+### 3.2 Technologieintegration als besondere Herausforderung
 Die Integration verschiedener Technologien ist für den Betrieb einer Smart City essenziell – sie ist aber auch eine der größten sicherheitstechnischen Schwachstellen. Unterschiedliche Hersteller, uneinheitliche Standards und nicht durchgängig abgesicherte Schnittstellen erhöhen das Risiko für Datenverluste, Manipulationen und unautorisierten Zugriff. 
 
 Zentrale Herausforderungen in Bezug auf Cybersecurity: 
@@ -490,7 +498,7 @@ Zentrale Herausforderungen in Bezug auf Cybersecurity:
 
 Cybersecurity muss daher bereits bei der Planung von Technologieintegrationen berücksichtigt werden. Sichere APIs, standardisierte Verschlüsselung und eine durchgehende Überprüfung der Datenintegrität sind essenziell, um Angriffsflächen zu minimieren. 
 
-### Kommunale Umsetzungshürden. Zwischen Anspruch und Realität
+### 3.3 Kommunale Umsetzungshürden: Zwischen Anspruch und Realität
 Die sichere Gestaltung von Smart Cities scheitert in der Praxis oft nicht an fehlenden Konzepten, sondern an strukturellen und organisatorischen Hürden. Fachkräftemangel, unklare Zuständigkeiten, fehlende Budgets und komplexe Abstimmungsprozesse machen es Kommunen schwer, Cybersicherheit konsequent umzusetzen. 
 
 Ein zentrales Problem: Viele Smart City - Projekte starten als Pilotvorhaben ohne langfristige Sicherheitsstrategie. Sicherheitsmaßnahmen werden oft punktuell integriert, statt systematisch in den Regelbetrieb überführt zu werden. Gleichzeitig bleibt Cybersicherheit häufig eine untergeordnete Priorität in der Förderlogik, da Programme eher technische Innovationen als deren nachhaltige Absicherung unterstützen. Die Realität zeigt, dass Cybersicherheit nicht allein durch technische Lösungen erreicht wird. Es braucht klare Verantwortlichkeiten, durchgehende Sicherheitsrichtlinien und eine bessere Vernetzung der relevanten Akteure. 
@@ -503,9 +511,11 @@ Viele bestehende Strategien geben sinnvolle Handlungsempfehlungen – doch die e
 
 - **Einbindung und Weiterentwicklung durch die Community**: Cybersicherheit ist kein statisches Konzept, sondern ein sich ständig weiterentwickelndes Feld. Kommunen brauchen den Austausch mit anderen Städten, IT-Sicherheitsforschung und Open Source/Open Data -Initiativen, um langfristig widerstandsfähig zu bleiben. Der Dialog zwischen technischen, rechtlichen und organisatorischen Akteuren ist dabei dringend geboten.
 
-## **Richtlinien und Standards**
+***
+
+## **4 Richtlinien und Standards**
 Diese Abschnitt verweist auf bewährte Richtlinien und Standards für die Sichheit in Smart Cities. Die aufgeführten Vorgaben bieten eine Grundlage für den Schutz digitaler Infrastrukturen und lassen sich flexibel auf txpische Herausforderungen in urbanen Kontext anwenden.
-### Richtlinien
+### 4.1 Richtlinien
 **_Datenschutz- Grundverordnung_**
 
 [Die Datenschutz-Grundverordnung (DSGVO)](https://dsgvo-gesetz.de/) hat erhebliche Auswirkungen auf Smart City - Lösungen, da sie den Umgang mit personenbezogenen Daten strikt regelt. In einer Smart City werden viele Daten über Sensoren, urbane Datenplattformen und andere digitale Infrastrukturen erfasst und der Datenschutz ist immer mitzudenken.  
@@ -536,9 +546,7 @@ _**Open Data Richtlinie**_
 
 Die [Open Data Richtlinie der EU](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:4405374), auch bekannt als die Richtlinie über offene Daten und die Weiterverwendung von Informationen des öffentlichen Sektors, hat erhebliche Auswirkungen auf Smart Cities, da sie den freien Zugang zu und die Wiederverwendung von öffentlichen Daten fördert. Im Kontext von Smart Cities bedeutet dies, dass große Mengen an urbanen Daten, die durch Sensoren und digitale Plattformen gesammelt werden, offen zugänglich gemacht werden müssen, um Transparenz, Innovation und Bürgerbeteiligung zu fördern. 
 
-**Implikationen für Cybersecurity:** 
-
-Die Bereitstellung von offenen Daten stellt für Smart Cities auch eine Cybersecurity-Herausforderung dar. Einerseits muss der freie Zugang zu nicht personenbezogenen Daten gewährleistet werden, andererseits müssen sensible Informationen wie personenbezogene Daten und sicherheitskritische Infrastrukturen geschützt werden. Die Open Data Richtlinie erfordert daher ein feingliedriges Sicherheitsmanagement, um sicherzustellen, dass die Freigabe von Daten nicht zu potenziellen Angriffsflächen führt. 
+Die Bereitstellung von offenen Daten stellt für Smart Cities jedoch auch eine Cybersecurity-Herausforderung dar. Einerseits muss der freie Zugang zu nicht personenbezogenen Daten gewährleistet werden, andererseits müssen sensible Informationen wie personenbezogene Daten und sicherheitskritische Infrastrukturen geschützt werden. Die Open Data Richtlinie erfordert daher ein feingliedriges Sicherheitsmanagement, um sicherzustellen, dass die Freigabe von Daten nicht zu potenziellen Angriffsflächen führt. 
 
 - **Datensicherheit**: Um die Datensicherheit zu gewährleisten, müssen Smart Cities strikte Zugriffskontrollen und Anonymisierungsverfahren implementieren, bevor Daten veröffentlicht werden 
 
@@ -548,12 +556,10 @@ Die Bereitstellung von offenen Daten stellt für Smart Cities auch eine Cybersec
 
 Insgesamt müssen Smart Cities beim Umgang mit Open Data stets ein ausgewogenes Verhältnis zwischen der Förderung von Offenheit und Innovation und dem Schutz ihrer kritischen Infrastrukturen finden. 
 
-### Standards
+### 4.2 Standards
 **_BSI-Grundschutz_**
 
 Der [BSI IT-Grundschutz](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/it-grundschutz_node.html) ist ein umfassendes Sicherheitskonzept, das vom [Bundesamt für Sicherheit in der Informationstechnik (BSI)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Hilfsmittel/Profile/Basis_Absicherung_Kommunalverwaltung.html) entwickelt wurde, um Organisationen dabei zu unterstützen, ihre IT-Systeme systematisch und effizient zu schützen. Es bietet eine strukturierte Methodik, mit der Sicherheitsrisiken identifiziert und geeignete Schutzmaßnahmen implementiert werden können. Der IT-Grundschutz umfasst dabei Module für unterschiedliche Szenarien, von der Netzwerksicherheit über physische Sicherheitsmaßnahmen bis hin zur Reaktion auf Sicherheitsvorfälle. 
-
-**Implikationen für Smart City Lösungen**: 
 
 Für Smart Cities ist der IT-Grundschutz besonders relevant, da sie stark auf vernetzte Infrastrukturen, IoT-Geräte und urbane Datenplattformen angewiesen sind. Der IT-Grundschutz bietet einen systematischen Rahmen, um diese komplexen Systeme abzusichern. Im Kontext von Smart Cities sind folgende Aspekte besonders wichtig: 
 
@@ -561,13 +567,17 @@ Für Smart Cities ist der IT-Grundschutz besonders relevant, da sie stark auf ve
 
 Internationale Standards wie ISO und nationale Normen wie DIN bieten strukturierte Rahmenwerke, um die Sicherheit und Effizienz moderner Smart City-Systeme zu gewährleisten. Sie definieren Anforderungen und Best Practices, die es Städten ermöglichen, ihre digitalen Infrastrukturen und IoT-Systeme sicher und zukunftsfähig zu gestalten. Eine gute Übersicht über relevante Standards in diesen Bereichen sind im Folgenden zusammengetragen: 
 
-| --- | ----------------------|
-|DIN  | [Nationale Normen und Standards](https://www.din.de/de/forschung-und-innovation/themen/smart-cities/normen-und-standards/nationale-normen-und-standards) für Smart City u.a. für Urbane Digitale Zwillinge, Offene Urbane Datenplattformen |
-| ISO | u.a Standards zu Informationssicherheitsmanagement (ISO/IEC 27001), der auch für den BSI- Grundschutz relevant ist |
+|Norm|Rahmen|
+|-|-|
+|DIN|[Nationale Normen und Standards](https://www.din.de/de/forschung-und-innovation/themen/smart-cities/normen-und-standards/nationale-normen-und-standards) für Smart City u.a. für Urbane Digitale Zwillinge, Offene Urbane Datenplattformen|
+|ISO|u.a Standards zu Informationssicherheitsmanagement (ISO/IEC 27001), der auch für den BSI- Grundschutz relevant ist|
 
-## **Weiterführende Ressourcen und Tools**
+***
+
+## 5 **Weiterführende Ressourcen und Tools**
 Dieser Abschnitt enthält eine Auswahl an Ressourcen und weiterführenden Informationen, die für Smart Cities hilfreich sein können. Das Angebot in diesem Bereich wächst kontinuierlich, und Ergänzungen werden gerne aufgenommen. Hinweise bitte über die Kommentierung. 
 
+| Titel | Link |
 | --------------------------- | ------|
 | Allianz für Cybersicherheit | [ACS - Allianz für Cyber Sicherheit -ACS](https://www.allianz-fuer-cybersicherheit.de/Webs/ACS/DE/Home/home_node.html)
 | Pilotprojekt Sicherkommunal BSI & Sachsen- Anhalt | [Mehr IT- Sicherheit für kommunen- Kommune21 online Kommune21 - E-Government, Internet und Informationstechnik](https://www.kommune21.de/k21-meldungen/mehr-it-sicherheit-fuer-kommunen-2/) |
