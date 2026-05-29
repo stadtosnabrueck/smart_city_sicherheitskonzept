@@ -2,6 +2,9 @@
 # **SMART CITIES - SICHERHEITSKONZEPT**
 
 
+* 18.05.2026 - 1.1
+  * Aktuelle Anpassungen
+
 * 13.03.2025 - 1.0
   * Initiale Version
 
@@ -28,7 +31,10 @@
 ***
 
 ## **1 Einleitung**
-Mit der zunehmenden Digitalisierung gewinnen smarte Technologien eine immer größere Bedeutung für Städte, die ihre Effizienz steigern und ihre Dienstleistungen optimieren möchten. Dazu gehören Sensoren, urbane Datenplattformen und die Integration dieser Systeme in die alltäglichen Abläufe. Dieses Smart City Cybersecurity-Referenzkonzept (nachfolgend: SCCK) verfolgt das Ziel, eine umfassende Sammlung bewährter Ansätze, Standards und Ressourcen rund um Cybersecurity im Smart City-Kontext bereitzustellen. Darüber hinaus enthält es typische Beispiele und Angriffsszenarien für die einzelnen Systemkomponenten. Das SCCK richtet sich insbesondere an Smart City - Teams, die mit der Implementierung von Smart City - Lösungen beauftragt sind und an interessierte Nutzer, die ein besseres Verständnis entwickeln möchten.   
+Mit der zunehmenden Digitalisierung gewinnen smarte Technologien eine immer größere Bedeutung für Städte, die ihre Effizienz steigern und ihre Dienstleistungen optimieren möchten. Dazu gehören Sensoren, urbane Datenplattformen und die Integration dieser Systeme in die alltäglichen Abläufe. 
+Doch die zunehmende Vernetzung digitaler Infrastrukturen und Dienstleistungen erhöht nicht nur die Effizienz kommunaler Prozesse, sondern zugleich auch die Angriffsfläche für beispielsweise Cyberkriminelle. Insbesondere öffentliche Verwaltungen, kommunale Einrichtungen sowie kleine und mittlere Organisationen geraten verstärkt ins Visier von Ransomware-Angriffen, politisch motivierten Cyberattacken und Hacktivismus. Geopolitische Konflikte und der Einsatz generativer KI verstärken diese Entwicklung zusätzlich, da Angriffe immer professioneller und automatisierter werden. Dadurch wird Cybersecurity für Kommunen zunehmend zu einer strategischen Führungsaufgabe, bei der Verwaltungsleitungen Sicherheitsrisiken aktiv steuern, regulatorische Vorgaben erfüllen und die digitale Handlungsfähigkeit der Verwaltung sichern müssen.
+ 
+Dieses Smart City Cybersecurity-Referenzkonzept (nachfolgend: SCCK) verfolgt das Ziel, eine umfassende Sammlung bewährter Ansätze, Standards und Ressourcen rund um Cybersecurity im Smart City-Kontext bereitzustellen. Darüber hinaus enthält es typische Beispiele und Angriffsszenarien für die einzelnen Systemkomponenten. Das SCCK richtet sich insbesondere an Smart City - Teams, die mit der Implementierung von Smart City - Lösungen beauftragt sind und an interessierte Nutzer, die ein besseres Verständnis entwickeln möchten.  
 
 ### 1.1 Übersicht
 Das Sicherheitskonzept umfasst folgende Schwerpunkte: 
@@ -209,7 +215,29 @@ _6. Physischer Zugriff und Sabotage_
 
 **Auswirkungen**: Schäden können zu Datenlücken, Fehlfunktionen oder einer kompletten Systemunterbrechung führen. Potenzielle Gefährdung der öffentlichen Sicherheit und erhöhtes Unfallrisiko in sicherheitskritischen Bereichen wie Verkehrsmanagement. Beträchtliche Sachschäden. 
 
-### 2.2 Datenübertragung
+### 2.2 Daten
+
+**_Was sind Daten?_**
+
+Daten bezeichnet eine Sammlung aus Informationen wie Zahlen, Fakten, Texten oder Beobachtungen. Unternehmen nutzen diese Daten, analysieren sie und gewinnen daraus wertvolle Erkenntnisse. Sie helfen dabei, fundierte Entscheidungen zu treffen.
+
+Daten stammen aus vielen verschiedenen Quellen und haben unterschiedliche Formate. Sie können qualitativ sein, wie etwa Kundenmeinungen, oder quantitativ, wie Verkaufszahlen. Weitere Beispiele sind öffentliche Daten (z. B. statistische Erhebungen oder Volkszählungen) und private Daten (z. B. Kaufverhalten oder medizinische Informationen). In den letzten zehn Jahren hat das Konzept von Big Data – riesige, vielfältige Datensammlungen aus Quellen wie sozialen Netzwerken, Onlinehandel oder Finanzsystemen – die digitale Entwicklung in nahezu allen Branchen stark beeinflusst. Wegen ihres wirtschaftlichen Werts wird Big Data oft als „das neue Öl“ bezeichnet.
+
+Mit dem Aufkommen von künstlicher Intelligenz (KI) hat sich der Fokus auf Daten weiter verstärkt. KI-Systeme benötigen große Mengen qualitativ hochwertiger Daten, um durch maschinelles Lernen präzise Prognosen und Analysen zu ermöglichen. Je besser die Datenbasis, desto leistungsfähiger sind die Modelle.
+
+Angesichts der wachsenden Datenmengen und ihrer Bedeutung ist ein strukturiertes Datenmanagement für Unternehmen unverzichtbar. Es sorgt dafür, dass Daten sinnvoll geordnet, zugänglich und nutzbar sind.
+
+Gleichzeitig nehmen Sorgen rund um Datenschutz und Datensicherheit zu. Sowohl Nutzer als auch staatliche Stellen fordern einen verantwortungsvollen Umgang mit persönlichen Daten – was zu gesetzlichen Regelungen wie der Datenschutzgrundverordnung DSGVO geführt hat.
+
+**_Warum sind Daten wichtig?_**
+
+Daten können ein zentrales Werkzeug sein, um aus Rohinformationen verwertbare Erkenntnisse zu gewinnen. Sie helfen, Kundenverhalten vorherzusagen, Prozesse wie Lieferketten zu verbessern und Innovationen zu fördern.
+
+**_Wie werden Daten verwendet?_**
+
+nternehmen verschiedenster Branchen setzen Daten gezielt ein, um fundierte Entscheidungen zu treffen, betriebliche Abläufe zu verbessern und Innovationen voranzutreiben. Dabei kommen unterschiedliche Anwendungsfelder zum Einsatz: Mithilfe von Vorhersageanalysen können sie Trends erkennen und zukünftige Entwicklungen besser einschätzen, während generative KI neue Inhalte oder Lösungen schafft und somit kreative Prozesse unterstützt. Im Gesundheitswesen ermöglichen datenbasierte Ansätze personalisierte Therapien und effizientere Diagnosen. Auch in der Sozialforschung leisten Daten wertvolle Beiträge, etwa beim Verständnis gesellschaftlicher Entwicklungen. In der Cybersicherheit helfen sie, Risiken frühzeitig zu erkennen und abzuwehren. Gleichzeitig steigern sie die betriebliche Effizienz, indem sie Prozesse automatisieren und Ressourcen gezielter einsetzen. Eine verbesserte Customer Experience ergibt sich durch die Analyse des Nutzerverhaltens und die darauf abgestimmte Personalisierung von Angeboten. Darüber hinaus nutzen auch staatliche Institutionen Daten zur Umsetzung digitaler Verwaltungsprozesse und strategischer Programme. Nicht zuletzt ist Business Intelligence (BI) ein zentrales Werkzeug, mit dem Unternehmen ihre Daten strukturiert auswerten, um daraus operative und strategische Erkenntnisse zu gewinnen.
+
+### 2.3 Datenübertragung
 
 **_Was ist es?_**
 
@@ -305,7 +333,7 @@ Die nachfolgenden Angriffsszenarien sind entsprechend ihrer Wahrscheinlichkeit u
 
 **Folgen**: Störungen in der Datenübertragung können den Betrieb kritischer Smart City - Dienste, wie die Verkehrssteuerung oder Notfallsysteme, erheblich beeinträchtigen 
 
-### 2.3 IoT- und Datenplattformen
+### 2.4 IoT- und Datenplattformen
 
 **_Was ist es?_**
 
@@ -356,7 +384,7 @@ In Smart Cities kommen verschiedene IoT- und Datenplattformen zum Einsatz – of
 
   - Digitale Zwillinge: Durch die Kombination von Echtzeit- und historischen Daten lassen sich virtuelle Stadtmodelle erstellen, die für Simulationen und optimierte Planungsprozesse genutzt werden können 
 
-**_Typische Angrufsszenarien_**
+**_Typische Angriffsszenarien_**
 
 IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruktur und daher ein attraktives Ziel für Cyberangriffe. Auf diesen Plattformen laufen sensible Daten aus verschiedenen Quellen zusammen, die für die Steuerung und Überwachung städtischer Systeme entscheidend sind. Die typischen Angriffsszenarien umfassen folgende Bedrohungen: 
 
@@ -392,7 +420,88 @@ IoT- und Datenplattformen sind ein zentrales Element der Smart City - Infrastruk
 
 **Folgen**: Ein DoS-Angriff auf die Datenplattform kann kritische städtische Dienste wie Verkehrsmanagement, Energieversorgung und öffentliche Sicherheit stören und somit massive Auswirkungen auf das tägliche Leben in der Stadt haben. 
 
-### 2.4 Smart City- Anwendungen
+### 2.5 Künstliche Intelligenz
+
+**_Was ist es?_**
+
+Künstliche Intelligenz (KI) ist ein Teilbereich der Informatik, der darauf abzielt, Maschinen mit menschenähnlichen Fähigkeiten wie Lernen, Verstehen, Entscheiden, Kreativität und eigenständigem Handeln auszustatten. KI-Systeme können Sprache erkennen, Objekte identifizieren und aus Erfahrungen lernen. Sie geben Empfehlungen und agieren oft autonom – ein Beispiel dafür ist das autonome Fahren. Moderne KI basiert häufig auf maschinellem Lernen (ML), bei dem Algorithmen Aufgaben durch Wiederholung und Feedback eigenständig erlernen, ohne dass der Lösungsweg explizit programmiert wird. Entscheidende Fortschritte in den letzten Jahren wurden durch die Verfügbarkeit großer Datenmengen und leistungsstarker Computer erzielt. Ein aktueller Fokus der KI-Forschung liegt auf generativer KI, die eigenständig Inhalte wie Texte, Bilder oder Videos erzeugen kann. Diese Technologie nutzt Methoden des maschinellen Lernens, insbesondere des Deep Learning, um kreative Prozesse zu simulieren und neue Inhalte zu generieren.
+
+**_Technologien und ausgewählte Beispiele_**
+
+1. _Dialogprozesse - Mensch zu Maschine_
+- **Beschreibung**: KI ermöglicht natürliche Dialoge zwischen Menschen und technischen Systemen – sowohl schriftlich als auch sprachbasiert. Ob Sprachbefehle zur Steuerung von Haushaltsgeräten, automatisierte Sprachführung bei Hotlines oder textbasierte Chatbots in Online-Shops: Die Systeme orientieren sich zunehmend an der menschlichen Kommunikationsweise und gestalten die Interaktion intuitiver und benutzerfreundlicher.
+
+- **Anwendungsfälle:**
+
+  - Digitale Bürgerassistenten: Als integrierte Chatbots dienen digitale Bürgerassistenten als digitaler Ansprechpartner für Bürger, der alle Fragen rund um städtische Dienstleistungen beantworten kann.
+
+  - Sprachgesteuerte Fahrplanauskünfte im ÖPNV und barrierefreie Kommunikation: Sprachassistenten sollen Nahverkehrskunden eine digitale Kommunikationsmöglichkeit bieten, bei der Fahrgäste alle gewünschten Informationen für Bus- oder Bahnverbindungen im vollautomatisierten Kundendialog abfragen können
+
+2. _Kommunikation zwischen Maschinen_
+
+- **Beschreibung:** Maschine-zu-Maschine-Kommunikation (M2M) bezeichnet den selbstständigen Datenaustausch zwischen technischen Systemen, die nicht auf klassischen Computern basieren. Ziel ist es, dass Geräte, Anlagen oder Maschinen ohne menschliches Zutun Informationen miteinander austauschen. In der modernen industriellen Automatisierung erfolgt dieser Austausch typischerweise über Netzwerke wie Ethernet, WLAN oder Mobilfunk. Dabei kommen bewährte Standards und Kommunikationsprotokolle aus der Informations- und Kommunikationstechnologie zum Einsatz, um eine zuverlässige und strukturierte Vernetzung zu gewährleisten.
+
+- **Anwendungsfälle:**
+
+  - Vernetzte Verkehrsinfrastruktur: Die Einführung automatisierter und vernetzter Mobilitätslösungen führt zu veränderten Anforderungen an die bestehende Infrastruktur und eröffnet gleichzeitig neue Möglichkeiten durch den Einsatz innovativer, intelligenter Infrastruktursysteme.
+
+  - Smart Waste Management: Smart Waste Lösungen können dabei unterstützen, die Müllentsorgung in Städten effizienter zu machen und Einsatzpläne für Müllfahrzeuge zu optimieren.
+
+  - Smart Lighting: Systeme für intelligente Straßenbeleuchtung stellen sicher, dass genau dort ausreichend Licht zur Verfügung steht, wo es benötigt wird.
+
+3. _Automatisierung durch intelligente Systeme_
+
+- **Beschreibung:** Die Integration von KI in automatisierte Prozesse erhöht sowohl die Qualität der Ergebnisse als auch die Effizienz entlang der gesamten Wertschöpfungskette. Bei der Intelligent Process Automation übernehmen Softwareroboter wiederkehrende und fehleranfällige Aufgaben. Werden diese Bots durch KI-Elemente ergänzt, lassen sich auch komplexe Prozesse ganzheitlich, adaptiv und mit deutlich besseren Resultaten automatisieren.
+
+- **Anwendungsfälle:**
+
+  - Automatisierte Verwaltungsvorgänge: Digitale Prozesse wickeln sich in Behörden selber ab – ohne dass ständiges menschliches Eingreifen nötig ist. Daten werden automatisch gelesen, geprüft und verarbeitet, was im Idealfall zur vollständig papierlosen Bearbeitung führt.
+
+  - Automatisierte Energieverteilung: Eine automatisierte Energieverteilung beispielsweise über Smart Grids sichert die Stabilität der Netze. Intelligente Stromnetze koordinieren Erzeugung, Speicherung und Verbrauch von Elektrizität effizient und gleichen dabei Schwankungen im Energiefluss aus.
+
+4. _KI-gestützte Entscheidungsfindung_
+
+- **Beschreibung:** Durch die Analyse großer Datenmengen können KI-Systeme fundierte Empfehlungen für Entscheidungsprozesse liefern. Ein Beispiel ist die medizinische Diagnostik, bei der KI potenzielle Präventions- oder Therapieoptionen vorschlagen kann, um Ärztinnen, Ärzte und Patienten bei der Wahl der passenden Maßnahmen zu unterstützen.
+
+- **Anwendungsfälle:**
+
+  - Datenbasierte Stadtplanung: Die Auswertung großer Datenmengen ermöglicht die Erstellung dynamischer Modelle, die reale Situationen nachbilden. Mithilfe von Simulationen lässt sich erkennen, wie neue Wohngebiete bestehende Infrastrukturen beeinflussen oder an welchen Stellen optimierte Ampelsteuerungen Verkehrsstaus vermeiden können.
+
+  - Frühwarnsysteme für Umweltgefahren: Künstliche Intelligenz bietet die Möglichkeit, früh vor Überflutungen und andere Extremwetterereignisse zu warnen.
+
+5. _Zukunftsorientierte Anwendungsbereiche_
+
+Die rasante Entwicklung neuer KI-Technologien und -Kombinationen eröffnet kontinuierlich neue Einsatzmöglichkeiten. Fortschritte in Forschung und Entwicklung beschleunigen den Transfer innovativer Ansätze in verschiedene Domänen, wodurch bestehende Anwendungen verbessert und völlig neue Felder erschlossen werden.
+
+**_Typische Angriffsszenarien_**
+
+1. _Datenvergiftung_
+
+**Wahrscheinlichkeit:** Mittel bis hoch
+
+**Beschreibung:** Datenvergiftung bezeichnet eine Form von Cyberangriff, bei der Angreifer die Trainingsdaten verfälschen oder beschädigen, die zur Erstellung von Modellen für Künstliche Intelligenz (KI) und Maschinelles Lernen (ML) genutzt werden.
+
+**Folgen:** Die Folgen dieser gezielten Veränderung der Trainingsdaten treten häufig nur indirekt zutage, zum Beispiel durch ungewöhnliche oder fehlerhafte Ergebnisse einer KI. 
+
+2. _Modellmanipulation_
+
+**Wahrscheinlichkeit:** Niedrig bis Mittel
+
+**Beschreibung:** Die Einflussnahme auf KI kann drei Bereiche umfassen: die Eingabedaten für das KI-System, die Gestaltung der zugrundeliegenden Algorithmen sowie die vom KI-System erzeugten Ergebnisse und deren Auswertung. Dabei reicht das Spektrum der Beeinträchtigung von unbeabsichtigten Verzerrungen bis hin zu gezielter Manipulation, wobei Mensch und KI sich häufig gegenseitig beeinflussen.
+
+**Folgen:** Auch hier beziehen sich die Folgen auf ungewöhnliche Ausgaben, Deep Fakes oder andere fehlerhafte Ergebnisse.
+
+3.	_Denial of Service_
+
+**Wahrscheinlichkeit:** Mittel
+
+**Beschreibung:** Ein Denial of Service (DoS)-Angriff zielt darauf ab, einen Dienst oder ein System so zu überlasten, dass legitime Nutzer keinen Zugriff mehr darauf haben. Klassischerweise geschieht das durch das Überfluten eines Servers mit Anfragen, so dass er überlastet ist und nicht mehr reagieren kann.
+
+**Folgen:** In Folge eines DoS-Angriffes kann es passieren, dass KI-Modelle nicht oder sehr eingeschränkt nutzbar sind. Kritische Anwendungen, die auf die KI angewiesen sind, funktionieren dann nicht mehr.
+
+
+
+### 2.6 Smart City- Anwendungen
 _**Was ist es?**_ 
 
 Smart City - Anwendungen bilden die oberste Ebene der städtischen Digitalinfrastruktur. Im Gegensatz zu urbanen Datenplattformen, die eine Vielzahl unterschiedlicher Datenquellen zusammenführen, sind diese Anwendungen meist auf spezifische Anwendungsfälle ausgerichtet. Sie nutzen gezielt ausgewählte Daten aus Sensoren, Kommunikationsnetzen oder urbanen Datenplattformen, um daraus visuelle, analytische oder interaktive Lösungen zu entwickeln. 
@@ -514,7 +623,7 @@ Viele bestehende Strategien geben sinnvolle Handlungsempfehlungen – doch die e
 ***
 
 ## **4 Richtlinien und Standards**
-Diese Abschnitt verweist auf bewährte Richtlinien und Standards für die Sichheit in Smart Cities. Die aufgeführten Vorgaben bieten eine Grundlage für den Schutz digitaler Infrastrukturen und lassen sich flexibel auf txpische Herausforderungen in urbanen Kontext anwenden.
+Dieser Abschnitt verweist auf bewährte Richtlinien und Standards für die Sicherheit in Smart Cities. Die aufgeführten Vorgaben bieten eine Grundlage für den Schutz digitaler Infrastrukturen und lassen sich flexibel auf typische Herausforderungen in urbanen Kontext anwenden.
 ### 4.1 Richtlinien
 **_Datenschutz- Grundverordnung_**
 
@@ -532,13 +641,15 @@ Für Smart City-Lösungen bedeutet dies:
 
 Die Nichteinhaltung der DSGVO kann zu erheblichen Strafen führen und das Vertrauen der Bürger in Smart City-Projekte untergraben. Daher ist die Integration von Datenschutz in alle Phasen der Konzeption und Umsetzung solcher Lösungen unerlässlich. 
 
-**_CER und NIS-2_**
+**_CER, NIS-2 und der Schutz kritischer Infrastrukturen_**
 
 Die [CER-Richtlinie (Critical Entities Resilience Directive)](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32022L2557) und die [NIS2-Richtlinie](https://eur-lex.europa.eu/eli/dir/2022/2555) sind zwei separate, aber eng miteinander verknüpfte EU-Richtlinien, die darauf abzielen, die Cybersecurity und Cyberresilienz kritischer Infrastrukturen in Europa zu stärken. Beide traten im Oktober 2024 in Kraft und ergänzen sich in ihrer Ausrichtung auf physische und digitale Bedrohungen. 
 
-- **NIS2-Richtlinie**: Diese Richtlinie zielt darauf ab, die Cybersicherheit in einer Vielzahl von Sektoren, einschließlich digitaler Infrastrukturen, Energie, Gesundheitswesen und öffentlichen Verwaltungen, zu verbessern. Sie erfordert robuste Cybersicherheitsmaßnahmen, umfassendes Risikomanagement, sowie Meldepflichten bei Sicherheitsvorfällen. NIS2 legt den Schwerpunkt auf den Schutz digitaler Systeme und den Aufbau von widerstandsfähigen IT-Strukturen in kritischen Sektoren 
+- **NIS2-Richtlinie**: Diese Richtlinie zielt darauf ab, die Cybersicherheit in einer Vielzahl von Sektoren, einschließlich digitaler Infrastrukturen, Energie, Gesundheitswesen und öffentlichen Verwaltungen, zu verbessern. Sie erfordert robuste Cybersicherheitsmaßnahmen, umfassendes Risikomanagement, sowie Meldepflichten bei Sicherheitsvorfällen. NIS2 legt den Schwerpunkt auf den Schutz digitaler Systeme und den Aufbau von widerstandsfähigen IT-Strukturen in kritischen Sektoren.
+Da sie die Cybersicherheit kritischer Infrastrukturen und zentraler gesellschaftlicher Einrichtungen angesichts wachsender geopolitischer und digitaler Bedrohungen stärken soll, gewinnt die Umsetzung der NIS2-Richtlinie weiter an Bedeutung. Vor diesem Hintergrund hat die Bundesregierung mit dem Inkrafttreten des NIS-2-Umsetzungskonzept im Dezember 2025 die europäischen Vorgaben zur Cybersicherheit in deutsches Recht überführt und die Anforderungen an Unternehmen und Behörden deutlich verschärft. Ziel ist es, die Widerstandsfähigkeit kritischer Einrichtungen und des europäischen Binnenmarktes gegenüber Cyberangriffen zu stärken. Auch kommunale Einrichtungen und Eigenbetriebe geraten stärker in den Anwendungsbereich der Regulierung.
 
-- **CER-Richtlinie**: Im Gegensatz dazu fokussiert die CER-Richtlinie auf die physische Resilienz kritischer Infrastrukturen gegenüber einer Reihe von Bedrohungen wie Naturkatastrophen, Terroranschlägen, Insider-Bedrohungen oder Sabotage. Sie deckt 11 Sektoren ab, darunter Energie, Transport, Bankwesen und öffentliche Verwaltung. Diese Richtlinie verlangt von den betroffenen Organisationen, ihre physischen und digitalen Risiken zu identifizieren und Maßnahmen zu ergreifen, um ihre Infrastruktur vor Störungen zu schützen.  
+- **CER-Richtlinie**: Im Gegensatz dazu fokussiert die CER-Richtlinie auf die physische Resilienz kritischer Infrastrukturen gegenüber einer Reihe von Bedrohungen wie Naturkatastrophen, Terroranschlägen, Insider-Bedrohungen oder Sabotage. Sie deckt 11 Sektoren ab, darunter Energie, Transport, Bankwesen und öffentliche Verwaltung. Diese Richtlinie verlangt von den betroffenen Organisationen, ihre physischen und digitalen Risiken zu identifizieren und Maßnahmen zu ergreifen, um ihre Infrastruktur vor Störungen zu schützen.
+In Deutschland wird die EU-CER-Richtlinie durch das KRITIS-Dachgesetz umgesetzt, das im März 2026 in Kraft getreten ist und die ühysische Sicherheit sowie die Resilienz kritischer Infrastrukturen regulieren soll.
 
 Zusammen bieten NIS2 und CER einen umfassenden Rahmen zur Sicherung kritischer Infrastrukturen in Smart Cities, sowohl gegen physische als auch cyberbezogene Bedrohungen. 
 
@@ -555,6 +666,21 @@ Die Bereitstellung von offenen Daten stellt für Smart Cities jedoch auch eine C
 - **Angriffsrisiken**: Offene Datenportale können potenziell von Cyberangreifern ausgenutzt werden, um Schwachstellen in den städtischen Infrastrukturen zu identifizieren. Daher müssen Städte, die Open Data bereitstellen, geeignete Cybersicherheitsmaßnahmen treffen, wie etwa die regelmäßige Überprüfung der veröffentlichten Datensätze und die Integration von Risikobewertungen. 
 
 Insgesamt müssen Smart Cities beim Umgang mit Open Data stets ein ausgewogenes Verhältnis zwischen der Förderung von Offenheit und Innovation und dem Schutz ihrer kritischen Infrastrukturen finden. 
+
+_**EU Data Act**_
+
+Der [EU Data Act](https://digital-strategy.ec.europa.eu/en/policies/data-act) ist eine Initiative der [EU](https://www.bmv.de/SharedDocs/DE/Anlage/DG/Digitales/eu-data-act-deutsche-fassung-22-12-23.pdf?__blob=publicationFile), um die Herausforderungen anzugehen und die Chancen zu nutzen, die Daten in der Europäischen Union bieten. Dabei werden ein fairer Zugang und Nutzerrechte betont und gleichzeitig der Schutz personenbezogener Daten gewährleistet. Indem er eine Reihe von Maßnahmen vorsieht, stellt der Data Act Unternehmen, Bürgern und öffentlichen Verwaltungen mehr Daten zur Verfügung.
+
+Zu diesen Maßnahmen, die rechtliche Klarheit über den Umgang mit Daten schaffen sollen, gehören unter anderem eine Verringerung des Missbrauchs vertraglicher Ungleichgewichte, die einen fairen Datenaustausch behindern ebenso wie Vorschriften, die es öffentlichen Stellen ermöglichen, auf Daten des privaten Sektors zuzugreifen und diese für bestimmte Zwecke von öffentlichem Interesse zu nutzen.
+
+Der EU Data Act ist am 12. September 2025 EU-weit direkt anwendbares Recht geworden.
+
+_**EU AI Act**_
+
+Der [AI Act](https://www.europarl.europa.eu/topics/en/article/20230601STO93804/eu-ai-act-first-regulation-on-artificial-intelligence) der [Europäischen Union](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng?eliuri=eli%3Areg%3A2024%3A1689%3Aoj&locale=de) ist das weltweit erste umfassende Gesetz zum Thema Künstliche Intelligenz. Im Rahmen ihrer digitalen Strategie will die EU Künstliche Intelligenz regulieren, um bessere Bedingungen für die Entwicklung und Nutzung dieser Technologie zu schaffen.
+
+Die Vorschriften legen Verpflichtungen für Anbieter und Nutzer fest, die sich am Grad des Risikos der KI-Einstufung (inakzeptabel, hochriskant, begrenzt riskant, minimal) orientiert. Obwohl viele KI-Systeme nur ein minimales Risiko darstellen, müssen sie dennoch bewertet werden. Zu den verbotenen Anwendungen zählen beispielsweise kognitive Verhaltensmanipulationen oder eine biometrische Identifizierung von Menschen. Hochrisiko Anwendungen umfassen unter anderem KI-Systeme, die in bestimmten Bereichen Verwendung finden wie zum Beispiel bei der Verwaltung kritischer Infrastrukturen oder der Bildung. KI-Systeme mit begrenztem Risiko beinhalten beispielsweise Generative KI wie ChatGPT, deren Verwendung transparent offengelegt werden muss. Alle anderen Anwendungen wie Spam-Filter oder Videospiele zählen in den minimal riskanten Bereich.
+
 
 ### 4.2 Standards
 **_BSI-Grundschutz_**
